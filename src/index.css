@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", system-ui, sans-serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --color-brand-purple: #8C4FF4;
+  --color-brand-highlight: #B18AFF;
+  --color-brand-black: #08080B;
+  --color-brand-charcoal: #15151B;
+  --color-brand-white: #F5F3FA;
+  --color-brand-muted: #92909D;
+}
+
+@layer base {
+  html {
+    background-color: #08080B;
+    color: #F5F3FA;
+    font-family: "DM Sans", system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-color: #08080B;
+    color: #F5F3FA;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: "Outfit", system-ui, sans-serif;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

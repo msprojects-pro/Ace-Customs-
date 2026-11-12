@@ -1,0 +1,6 @@
+{
+  "name": "Ace Customs — Mobile Detailing & Automotive Customisation",
+  "description": "Ace Customs offers mobile vehicle detailing and automotive customisation services in Preston and across the North West.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
